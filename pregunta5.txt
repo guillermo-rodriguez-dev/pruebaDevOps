@@ -1,0 +1,15 @@
+Guillermo Rodriguez 46322644
+
+En el caso de que se cree una nueva funcionalidad de parte de desarrollo (ejemplo desarrollo cambia el código)
+y esto deberá ser finalmente desplegado en producción (por lo que deberá detallar los pasos que se siguen para lorgar este fin).
+
+
+En este caso la rama sera subida para poder pasar por el proceso de despliegue. Pasara por una serie
+de etapas hasta poder ser desplegado. Una primer face que es de commit, en la cual el codigo pasara
+por los test unitarios, se comprobara que compila correctamente, y pasa el analisis del codigo.
+Luego entrara en la face de aceptacion, en la cual se prueba que el sistema pase los test 
+automaticos a nivel funcional y no funcional. Luego entrara en la etapa de testing manual, para 
+comprobar que se cumplen los requerimientos requeridos asi como pruebas de carga.Por ultimo
+entra en la face de despliegue donde se liberara el codigo al usuario final. Esta ultima etapa
+puede incluir un despligue gradual, en dos ambientes, o por funciones, para que en caso de algun
+fallo se pueda dar marcha atras rapidamente 
