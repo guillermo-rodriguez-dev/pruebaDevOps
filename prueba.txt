@@ -1,1 +1,12 @@
-Guillermo Rodriguez 
+Guillermo Rodriguez 46322644
+
+
+Detallar el esquema de ramas que utlizaría en un proyecto de desarrollo, testing y despliegue de infraestrucutra como código
+
+
+Podes serguir varias estrategias de ramificacion del proyecto. Por ejemplo podes crear una 
+rama de produccion, la cual va a contener solo el codigo final que llegara al cliente, 
+luego ramas por funcionalidades, en el cual los programadores crearan ramas segun la
+fionalidad que esten desarrollando, una vez terminadas estas funcionalidades pueden
+pasar a una rama de testing, en la cual pasaran portesting automatico y manual,
+si logran pasar por esta etapa con exito se implementara en produccion 
